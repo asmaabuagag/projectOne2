@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 5%;
+    text-align: center;
+}
+.xo{
+    text-align: center;
+    background-color: rgb(226, 207, 207);
+    width: 29%;
+    margin: auto;
+    font-size: 30px;
+    padding: 5px 0;
+}
+#gameContainor{
+    width: 29%;
+    height:70vh;
+    background-color:'white';
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    margin: auto;
+    padding: 1%;
+  
+
+
+}
+
+.square{
+    background-color: rgb(226, 207, 207);
+    text-align: center;
+    padding-top: 40px;
+    padding: auto;
+    width: 90%;
+    height: 20vh;
+    font-size: 50px;
+    color: white;
+  
+}
+
+span{
+    color: rgb(255, 166, 0);
+}
+
+.square:hover{
+    background-color:rgb(255, 166, 0);
+    cursor: pointer;
+
+}

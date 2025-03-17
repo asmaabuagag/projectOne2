@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 200vh;
+    }
+
+
+    .container-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        height: 185vh;
+        position: relative;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80%;
+    }
+
+    h4 {
+        margin-Top: '3px';
+        color: "mediumvioletred";
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    div button {
+        height: 30px;
+        width: 90px;
+        margin-top: 5px;
+        font-size: medium;
+        font-weight: bold;
+        color: white;
+        background-color: mediumvioletred;
+        border-radius: 5px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FDBD03;
+        margin: 0;
+    }
+    
+.container6{
+    background-color: #0dcaf0;
+     height: 9%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+
+
+}
+
+.container6 div{
+    
+    padding:35px
+    ;
+    width: 7.5rem;
+}
+.container6 div p{
+    margin: 5px;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+align-items: center;    
+align-content: center;
+}
+    .container-main {
+        width: 90%;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .item {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .container6 div {
+        padding: 20px;
+        width: 6rem;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+}
+
+@media (max-width: 768px) {
+    .container-main {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .container2 {
+        padding: 20px ;
+    }
+
+    .item {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    div button {
+        width: 100px;
+        height: 35px;
+    }
+
+    .container6 {
+        display: none;
+    }
+
+    
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    .item{
+        display: none;
+    }
+}
+</style>
+
+<body>
+    <div class="container-main border border-warning  border-3">
+
+        <div class="item">
+            <a href="./index.html">
+                <p>asma</p>
+            </a>
+            <img src="image/asma2.jpg" style="border-radius: 5px; width: 25px;height: 25px; margin-right: 10px;">
+        </div>
+
+
+        <div class="container2">
+
+            <h1 style="font-size: 40px; color: white; text-decoration: underline;">תיק עבודות </h1><br>
+            <p style="font-size: 20px;">אלה הפרויקטים הראשוניים שלי <br>בתקופה הראשונה של
+                הליצודיים שלי </p>
+            <br><br>
+            <a href="../project4.zip" download style="text-decoration: none;">
+                <button type="button" class="btn btn-outline-info w-100 h-100">
+                    הורדת פרויקט
+                </button>
+            </a>
+        </div><br><br>
+
+
+        <div class="img d-flex justify-content-center">
+            <img src="image/sass.png">
+            <img src="image/b.png">
+            <img src="image/css.png">
+            <img src="image/html.png">
+        </div><br>
+        <div style="background-color: rgba(128, 128, 128, 0.29);width: 100%;">
+            <div
+                style="display: flex; justify-content: space-between; background-color: mediumvioletred; width: 100%; height: 50px;    border-radius: 6px;">
+                <div>
+                    <h4>Tawasol</h4>
+                </div>
+                <div>
+                    <h4>login</h4>
+                </div>
+            </div>
+            <br><br>
+            <div style="background-color:mediumvioletred;
+    height: 450px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 100px;">
+                <div style="background-image: url(image/emagee.png); height: 400px;
+        width: 450px;
+        margin-bottom: 70px;
+        position: absolute;
+        margin-right: 25px;
+        margin-top: 20px;display: flex; justify-content: center;align-items: center;align-content: center;flex-direction: column;
+        ">
+                    <div style=" background-Color:white;  
+ width:150px ;height:40px ;">
+                        <h1 style=" font-family: 'Martian Mono', monospace;">TAWASOL</h1>
+                    </div>
+                    <br><br>
+                    <div>
+                        <button>sign up</button><br>
+                        <button>login</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container6">
+
+            <div ><img src="image/06-facebook-64.webp" style="width: 3rem;"><p>asma@hotmail.com</p></div>
+            <div><img src="image/linkedin.png" style="width: 3rem;"><p>asmaasma</p></div>
+            <div><img src="image/phone.webp" style="width: 3rem;"><p>0503693691</p></div>
+            <div><img src="image/whatsapp.png" style="width: 3rem;"><p>0503693691</p></div>
+            <div><img src="image/arroba.png" style="width: 3rem;"><p>asma@hotmail.com</p></div>
+            <div><img src="image/maps-and-flags.png" style="width: 3rem;"><p>כסיפה,שכונה30</p></div>
+        
+            
+        
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

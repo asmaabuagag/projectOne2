@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../signIn"
+		},
+		{
+			"path": "../gameXO"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,15 @@
+// Workspace settings
+
+{
+
+    // The following will hide the css and map files
+
+    "files.exclude": {
+
+        "**/*.css": true,
+
+        "**/*.map": true
+
+    }
+
+}

@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .container-main1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        height: 250vh;
+        margin-top: 5%;
+        position: relative;
+
+    }
+
+    .container-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #E5EEFF;
+        width: 60%;
+        height: 200vh;
+
+    }
+
+    .container1 {
+
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+    .container2 {
+        width: 88%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .container2 div {
+        width: 52%;
+        height: 30%;
+       
+
+    }
+    .container2 div img{
+       margin: 5px; 
+       padding: 5px;
+    }
+
+    .container2-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container2-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container2 img {
+        width: 100%;
+    }
+
+    .container3 {
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 5%;
+
+
+
+    }
+
+    .container1div {
+        width: 74%;
+        height: 89%;
+        background-color: #020253;
+        margin-right: 5%;
+        margin-top: 2.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .container1-img {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .container1-img div {
+        width: 40%;
+        height: 30%;
+        margin: 5px;
+    }
+
+    .container1-img img {
+        width: 100%;
+    }
+
+
+
+    .container3-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 60%;
+        margin-bottom: 5%;
+
+
+    }
+
+    .container3-img div {
+        width: 45%;
+        height: 52%;
+        margin: 5px;
+
+    }
+
+    .container3-img img {
+        width: 100%;
+    }
+
+    .container3-div {
+        width: 50%;
+        height: 94%;
+        background-color: #8E097C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .name {
+        color: #0EE1DA;
+    }
+
+    .name-input {
+        height: 40%;
+        width: 110%;
+        border: none;
+        background-color: #E5EEFF;
+        border-bottom: 5px solid #0EE1DA;
+        margin: 5px;
+    }
+
+    .name-input2 {
+        height: 80px;
+        width: 115%;
+        border: none;
+        background-color: #E5EEFF;
+        border-bottom: 5px solid #0EE1DA;
+    }
+
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 80%;
+    }
+
+
+    .container-2 {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FDBD03;
+        margin: 0;
+    }
+
+
+    .container6 {
+        background-color: #0dcaf0;
+        height: 9%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+
+    }
+
+    .container6 div {
+
+        padding: 35px;
+        width: 7.5rem;
+    }
+
+    .container6 div p {
+        margin: 5px;
+        font-size: x-small;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (min-width: 1200px) {
+        .container5-div {
+            display: none;
+        }
+    }
+
+
+
+
+    @media (max-width: 768px)  {
+        
+        .item,
+        .container6,
+        .container-2 {
+            display: none;
+        }
+
+        .img img {
+            display: none;
+        }
+        .container1, .container2 {
+    margin: 0;
+    padding: 0;
+    height: auto; 
+}
+        .container-main {
+            width: 100%;
+            height: 365vh;
+                }
+
+
+        .container1div {
+            width: 100%;
+        }
+
+        .container1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+
+        }
+
+        .container1div {
+            width: 100%;
+            margin-left: 23px;
+            
+        }
+
+        .container1-img {
+            width: 105%;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin-right: 17%;
+          
+        }
+
+
+        .container2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            width: 165%;
+            height: 80%;
+            margin-bottom: 13%
+        }
+
+        .container2-1 div img {
+            width: 100%;
+        }
+
+        .container2-2 div {
+            margin-top: 60px;
+        }
+
+        .container3-div {
+           display: none;
+        }
+
+        .container5-div {
+        width: 84%;
+        height: 98%;
+        background-color: #8E097C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+.container-main1{
+    height: 370vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+.container3{
+    width: 100%;
+    margin-top: 5%;
+}
+.container3-img{
+    width: 92%;
+    margin-right: 3%;
+}
+    }
+</style>
+
+<body>
+    <div class="container-main1 border border-warning  border-3">
+
+        <div class="item">
+            <a href="../index.html">
+                <p>asma</p>
+            </a>
+            <img src="image/asma2.jpg" style="border-radius: 5px; width: 25px;height: 25px; margin-right: 10px;">
+        </div>
+
+
+
+        <div class="container-2">
+
+
+            <h1 style="font-size: 40px; color: white; text-decoration: underline;">תיק עבודות </h1><br>
+            <p style="font-size: 20px;">אלה הפרויקטים הראשוניים שלי <br>בתקופה הראשונה של
+                הליצודיים שלי </p>
+            <br><br>
+            <a href="../project7.zip" download style="text-decoration: none;">
+                <button type="button" class="btn btn-outline-info">
+                    הורדת פרויקט
+                </button>
+            </a>
+
+            <br><br>
+        </div>
+
+        <div class="img d-flex justify-content-center">
+            <img src="image/sass.png">
+            <img src="image/b.png">
+            <img src="image/css.png">
+            <img src="image/html.png">
+        </div><br>
+
+
+        <div class="container-main">
+
+            <div class="container1">
+
+                <div class="container1div">
+                    <h1 style="color: #0EE1DA;padding-top: 25%;">לגלות את העולם</h1>
+                    <p style="color: white;">לורם איפסום או בקיצור ליפסןם,הוא מלל מקובל וחסר משמעות </p>
+                    <div style="margin-bottom:5% ;">
+                        <p style="color: white;"> המשמש "מללא מקום" בעת עריכ</p>
+                    </div>
+                </div>
+
+                <div class="container1-img">
+
+                    <div class="container1-img1" style="width: 100%;height: 50%; display: flex; flex-direction: row;">
+                        <div><img src="image/Rectangle 514.png"></div>
+                        <div><img src="image/Rectangle 515.png"></div>
+                    </div>
+
+                    <div class="container1-img2" style="width: 100%;height: 50%;display: flex; flex-direction: row;">
+                        <div> <img src="image/img4.png"></div>
+                        <div><img src="image/Rectangle 516.png"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container2">
+
+                <div class="container2-1">
+                    <div><img src="image/img5.png"></div>
+                    <div><img src="image/1.png"></div>
+                </div>
+                <div class="container2-2">
+                    <div><img src="image/2.png"></div>
+                    <div><img src="image/3.png"></div>
+                </div>
+            </div>
+
+
+            <div class="container5-div">
+
+                <h2 style="color: white; font-weight: bolder;">ספרו לנו על החוויה שלכם</h2>
+                <p style="color: white; font-size: x-small; ">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר
+                    <br>משמעות המשמש “ממלא מקום” בעת עריכ.
+                </p>
+                <br>
+                <div>
+                    <form action="" class="form">
+                        <p class="name">שם מלא</p>
+                        <input class="name-input" type="text" class="box">
+                        <p class="name">דוא"ל</p>
+                        <input class="name-input" type="email" class="box">
+
+                        <p class="name">החוויה שלכם</p>
+                        <input class="name-input2" type="text" class="name1">
+                        <br><br><br>
+                        <input
+                            style="height: 30px; width: 117%; background-color:#0EE1DA; font-size: 22px; font-weight: bold; border: none;"
+                            class="submit" type="submit" value="שליחה">
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="container3">
+
+                <div class="container3-img">
+                    <div><img src="image/Rectangle 506@2x.png"></div>
+                    <div><img src="image/5.png"> </div>
+                    <div><img src="image/6.png"></div>
+                    <div><img src="image/img6.png"></div>
+                    <div><img src="image/Rectangle 506.png"></div>
+                    <div><img src="image/Rectangle 513.png"></div>
+
+
+                </div>
+
+                <div class="container3-div">
+
+                    <h2 style="color: white; font-weight: bolder;">ספרו לנו על החוויה שלכם</h2>
+                    <p style="color: white; font-size: x-small; ">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר
+                        <br>משמעות המשמש “ממלא מקום” בעת עריכ.
+                    </p>
+                    <br>
+                    <div>
+                        <form action="" class="form">
+                            <p class="name">שם מלא</p>
+                            <input class="name-input" type="text" class="box">
+                            <p class="name">דוא"ל</p>
+                            <input class="name-input" type="email" class="box">
+
+                            <p class="name">החוויה שלכם</p>
+                            <input class="name-input2" type="text" class="name1">
+                            <br><br><br>
+                            <input
+                                style="height: 30px; width: 117%; background-color:#0EE1DA; font-size: 22px; font-weight: bold; border: none;"
+                                class="submit" type="submit" value="שליחה">
+
+                        </form>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="container6">
+
+            <div><img src="image/06-facebook-64.webp" style="width: 3rem;">
+                <p>asma@hotmail.com</p>
+            </div>
+            <div><img src="image/linkedin.png" style="width: 3rem;">
+                <p>asmaasma</p>
+            </div>
+            <div><img src="image/phone.webp" style="width: 3rem;">
+                <p>0503693691</p>
+            </div>
+            <div><img src="image/whatsapp.png" style="width: 3rem;">
+                <p>0503693691</p>
+            </div>
+            <div><img src="image/arroba.png" style="width: 3rem;">
+                <p>asma@hotmail.com</p>
+            </div>
+            <div><img src="image/maps-and-flags.png" style="width: 3rem;">
+                <p>כסיפה,שכונה30</p>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

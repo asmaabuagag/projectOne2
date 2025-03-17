@@ -1,0 +1,83 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh; 
+  background-color: black;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+
+#cardsContainor{
+    width: 500px;
+    height:500px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    perspective: 1000px;
+    margin-left: 34%;
+  
+
+
+}
+#card:active{
+    transform: scale(.95);
+    transition: all .2s;
+
+}
+#card{
+    border:1px solid rgb(13, 255, 0);
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    box-shadow: 1px 1px 10px white;
+    position: relative;
+    background-color: rgb(43, 195, 226);
+}
+#card.flip{
+    transform: rotateY(180deg);
+}
+
+
+ .front,.back{
+position: absolute;
+height: 100%;
+width: 100%;
+backface-visibility: hidden;
+}
+
+.front{
+    transform: rotateY(180deg);
+}
+p{
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+button{
+    background-color: darkgreen;
+    border-radius: 5px;
+    color: white;
+    width: 8%;
+    height: 8%;
+    margin-left: 46%;
+    font-size: 30px;
+}
+
+
